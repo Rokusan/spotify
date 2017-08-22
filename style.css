@@ -1,0 +1,125 @@
+body {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+}
+
+.logo {
+    height: 70px;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.logo img {
+    height: 40px;
+    padding: 14px 16px;
+}
+
+.bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bar a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.landscape {
+    margin-top: 70px;
+    padding-bottom: 50px;
+}
+
+.landscape img {
+    max-width: 100%;
+}
+
+.music {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 60%;
+    text-align: center;
+    font-size: 17px;
+    color: #FFF;
+}
+
+h3 {
+    text-decoration: underline;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#what {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 200px;
+    max-width: 80%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#what p {
+    font-size: 12px;
+}
+
+#what h4 {
+    color: #00B172;
+}
+
+#what img {
+    height: 50px;
+}
+
+.block1 {
+    text-align: center;
+    padding: 20px 20px;
+    width: 30%;
+}
+
+.kanye {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00B172;
+    height: 300px;
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 70px 40px;
+}
+
+.spotifyIcon img {
+    height: 40px;
+}
+
+.spotifyApp img {
+    height: 300px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    height: 300px;
+    max-width: 40%;
+}
+
+.blocks p {
+    font-size: 12px;
+}
+
+.footer {
+    height: 80px;
+}
